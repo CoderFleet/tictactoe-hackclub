@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+
+::selection{
+  background-color: #27ae61;
+}
+
 body{
     background: hsl(211deg 28% 25%);
 }
@@ -33,6 +38,12 @@ body{
   cursor: pointer;
 }
 
+.box:hover {
+  font-size: 9vw;
+  background-color: hsl(211deg 28% 25%);
+  transition: 0.25s;
+}
+
 .boxtext {
   font-family: 'Nunito';
 }
@@ -52,3 +63,37 @@ body{
     font-size: 1.5em;
 }
 
+/* <---------------Utility Classes----------------!> */
+
+.br-0 {
+  border-right: 0;
+}
+.bl-0 {
+  border-left: 0;
+}
+.bt-0 {
+  border-top: 0;
+}
+.bb-0 {
+  border-bottom: 0;
+}
+
+.txtContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'poppins';
+  width: 100%;
+  background-color: #27ae61;
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+}
