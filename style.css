@@ -3,13 +3,12 @@
   padding: 0;
 }
 
-
-::selection{
+::selection {
   background-color: #27ae61;
 }
 
-body{
-    background: hsl(211deg 28% 25%);
+body {
+  background: hsl(211deg 28% 25%);
 }
 
 .gameContainer {
@@ -27,7 +26,7 @@ body{
   background-color: hsl(210deg 29% 29%);
   border-radius: 60px;
   color: hsl(120deg 100% 100%);
-} 
+}
 
 .box {
   border: 2px solid hsl(210deg 22% 35%);
@@ -45,7 +44,7 @@ body{
 }
 
 .boxtext {
-  font-family: 'Nunito';
+  font-family: "Nunito";
 }
 
 .gameInfo {
@@ -59,8 +58,8 @@ body{
   color: hsl(120deg 100% 100%);
 }
 
-.info{
-    font-size: 1.5em;
+.info {
+  font-size: 1.5em;
 }
 
 /* <---------------Utility Classes----------------!> */
@@ -85,12 +84,29 @@ body{
   align-items: center;
 }
 
+.reset {
+  cursor: pointer;
+}
 
-.footer{
+#reset {
+  cursor: pointer;
+  margin: 05px 23px;
+  padding: 1px 10px;
+  background-color: #27ae61;
+  border-radius: 3px;
+  font-size: 2rem;
+  font-weight: bolder;
+  font-family: "poppins";
+  border: none;
+  color: #fff;
+  display: none;
+}
+
+.footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'poppins';
+  font-family: "poppins";
   width: 100%;
   background-color: #27ae61;
   position: absolute;
